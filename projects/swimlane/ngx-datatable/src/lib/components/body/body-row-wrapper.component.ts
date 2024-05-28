@@ -112,10 +112,8 @@ export class DataTableRowWrapperComponent implements DoCheck {
 
   getGroupHeaderStyle(): any {
     const styles = {};
-    debugger;
-    console.log('getGroupHeaderStyle')
-    styles['transform'] = 'translate3d(' + this.offsetX + 'px, 0px, 0px)';
     
+    styles['transform'] = 'translate3d(' + this.offsetX + 'px, 0px, 0px)';    
     styles['backface-visibility'] = 'hidden';
     styles['width'] = this.innerWidth;
 
